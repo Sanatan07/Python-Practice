@@ -39,3 +39,14 @@ print("Example for Replace Function:")
 sentence = "This is our house"
 print(sentence)
 print(sentence.replace("our", "my"))
+
+
+
+#Convert Lowercase to Uppercase
+print("Example for Upper Function:")
+print(name.upper())
+
+
+#convert Uppercase to Lowercase 
+print("Example for Lower Function:")
+print(name.lower())
