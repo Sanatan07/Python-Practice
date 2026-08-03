@@ -23,7 +23,19 @@ print("Hi. \\How are you!")
 print("Hi. This is sanatan\'s house.")
 print("Hi. This is you are calling at Bramhane \"nHow are you!")
 
+print("----------------------------------------")
+#Strings
+#Index of a character in a string
+print("Example for Index Function:")
+name = "Sanatan"
+print(name.index('n'), "so the first occurance of letter n is at index 2. This gives the first occurance of the character mentioned in the function")
 
+print(name.index('n', 3)," so the first occurance of letter n is at index 6 after 3rd index. Here you can also give a second parameter where you can specify after which index you need to search for the index of that character or element")
 
+print("----------------------------------------")
 
-
+#Replace a string in a sentence
+print("Example for Replace Function:")
+sentence = "This is our house"
+print(sentence)
+print(sentence.replace("our", "my"))
