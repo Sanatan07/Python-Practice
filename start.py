@@ -27,7 +27,7 @@ print("----------------------------------------")
 #Strings
 #Index of a character in a string
 print("Example for Index Function:")
-name = "Sanatan"
+name = "sanatan"
 print(name.index('n'), "so the first occurance of letter n is at index 2. This gives the first occurance of the character mentioned in the function")
 
 print(name.index('n', 3)," so the first occurance of letter n is at index 6 after 3rd index. Here you can also give a second parameter where you can specify after which index you need to search for the index of that character or element")
@@ -50,3 +50,17 @@ print(name.upper())
 #convert Uppercase to Lowercase 
 print("Example for Lower Function:")
 print(name.lower())
+
+
+#checks if string is Lowercase 
+print("Example for islower Function:")
+print(name.islower())
+
+
+#checks if string is Uppercase 
+print("Example for isupper Function:")
+print(name.isupper())
+
+#checks if string is Lowercase with method chaining
+print("Example for islower Function with method chaining:")
+print(name.lower().islower())
