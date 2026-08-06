@@ -44,3 +44,8 @@ print("the rounded integer is ", round(4.4), "this rounds to the previous intege
 
 print("-------------------------------------------")
 
+#print binary number
+# 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 
+#  1  |  0  | 1  |  0 | 0  | 1 | 1 | 1 | 0
+print("using bin function")
+print(bin(334)) 
