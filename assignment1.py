@@ -8,3 +8,5 @@ word2 = input('Input the new word that will be replaced with word one: ')
 
 new_sentence = sentence.replace(word1,word2)
 print("The new sentence is: ", new_sentence)
+
+#This prints the new sentence with a replaced word
